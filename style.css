@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2ec6ec;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #222;
+    font-size: 2em;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #17eb6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1aea74;
+}
+
+#movie-list, #query-result {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #007BFF;
+    color: white;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+tr:hover td {
+    background: #e2e2e2;
+}
